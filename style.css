@@ -17,7 +17,7 @@ body{
 /* Slider */
 .slider{
     position: relative;
-    width: 68%;
+    width: 65%;
     overflow: hidden;
 }
 
@@ -38,13 +38,13 @@ body{
 }
 
 /* Navigation */
-.dots{
+.squares{
     display: flex;
     justify-content: center;
     margin: 5px;
 }
 
-.dots label{
+.squares label{
     height: 20px;
     width: 20px;
     border-radius: 4%;
@@ -54,10 +54,11 @@ body{
     margin: 5px;
 }
 
-.dots label:hover{
+.squares label:hover{
     background-color: #fff;
 }
 
+/* Point radio buttons to images */
 #img1:checked ~ .im1{
     margin-left: 0;
 }
